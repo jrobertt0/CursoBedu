@@ -52,15 +52,92 @@ a {
 
 .fixed-header {
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   right: 0;
   background-color: white;
 }
 
+main {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.capterra {
+  max-width: 500px;
+  width: 80%;
+  margin: 20px;
+}
+
+/* session1 */
+
+input {
+  margin: 5px;
+  height: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+button {
+  background-color: #025157;
+  color: white;
+  margin: 5px;
+  border: 0px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+p {
+  color: #8b8b8bcc;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
 @media (max-width: 575px) {
   .navbar,
   .actions {
     display: none;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  article > h1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .row {
+    max-width: 80%;
+    flex-direction: column;
+  }
+
+  .container {
+    margin-bottom: 20px;
   }
 }
