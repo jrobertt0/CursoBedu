@@ -37,8 +37,8 @@ a {
   width: 40%;
 }
 
-.actions > *{
-    padding: 0 15px;
+.actions > * {
+  padding: 0 15px;
 }
 
 .actions button {
@@ -56,4 +56,11 @@ a {
   left: 0;
   right: 0;
   background-color: white;
+}
+
+@media (max-width: 575px) {
+  .navbar,
+  .actions {
+    display: none;
+  }
 }
