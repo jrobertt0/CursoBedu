@@ -77,29 +77,34 @@ header > * {
 .actions button {
   background-color: #67b54b;
   padding: 0 20px;
+  color: white;
+  margin: 5px;
+  border: 0px;
+  height: 30px;
+  border-radius: 10px;
 }
 
-.s-main{
+.s-main {
   height: 100px;
   width: 40vw;
   background-color: #6ac04b9f;
   border-radius: 10px;
-  margin: 20px
+  margin: 20px;
 }
 
-aside{
+aside {
   height: 400px;
   width: 40vw;
   background-color: #6ac04b9f;
   border-radius: 10px;
-  margin: 20px
+  margin: 20px;
 }
 
-footer{
-  background-color: white;
+footer {
+  background-color: #ececec;
 }
 
-.row{
+.row {
   display: flex;
   justify-content: center;
 }
@@ -108,7 +113,7 @@ footer{
 
 .promo {
   display: flex;
-  width: 70%;
+  width: 75%;
   margin: 100px auto;
   align-items: center;
 }
@@ -151,6 +156,18 @@ footer{
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   border: 1px solid silver;
+}
+
+.explanatory-video {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
 }
 
 main {
