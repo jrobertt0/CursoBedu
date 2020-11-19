@@ -511,6 +511,10 @@ h1 {
     margin: auto;
   }
 
+  .users-card-logo {
+      display: hidden;
+  }
+
   .price{
     height: 400px;
   }
